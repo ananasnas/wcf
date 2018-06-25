@@ -1,0 +1,33 @@
+C:\Users\р\Documents\Visual Studio 2013\Projects\1\w_client\w_client\bin\Debug\w_client.exe.config
+C:\Users\р\Documents\Visual Studio 2013\Projects\1\w_client\w_client\obj\Debug\w_client.csprojResolveAssemblyReference.cache
+C:\Users\р\Documents\Visual Studio 2013\Projects\1\w_client\w_client\obj\Debug\w_client.Form2.resources
+C:\Users\р\Documents\Visual Studio 2013\Projects\1\w_client\w_client\obj\Debug\w_client.Form3.resources
+C:\Users\р\Documents\Visual Studio 2013\Projects\1\w_client\w_client\obj\Debug\w_client.Form4.resources
+C:\Users\р\Documents\Visual Studio 2013\Projects\1\w_client\w_client\obj\Debug\w_client.Form5.resources
+C:\Users\р\Documents\Visual Studio 2013\Projects\1\w_client\w_client\obj\Debug\w_client.person.resources
+C:\Users\р\Documents\Visual Studio 2013\Projects\1\w_client\w_client\obj\Debug\w_client.Properties.Resources.resources
+C:\Users\р\Documents\Visual Studio 2013\Projects\1\w_client\w_client\obj\Debug\w_client.csproj.GenerateResource.Cache
+C:\Users\р\Documents\Visual Studio 2013\Projects\1\w_client\w_client\bin\Debug\w_client.exe
+C:\Users\р\Documents\Visual Studio 2013\Projects\1\w_client\w_client\bin\Debug\w_client.pdb
+C:\Users\р\Documents\Visual Studio 2013\Projects\1\w_client\w_client\bin\Debug\libchange.dll
+C:\Users\р\Documents\Visual Studio 2013\Projects\1\w_client\w_client\bin\Debug\libchange.pdb
+C:\Users\р\Documents\Visual Studio 2013\Projects\1\w_client\w_client\obj\Debug\w_client.exe
+C:\Users\р\Documents\Visual Studio 2013\Projects\1\w_client\w_client\obj\Debug\w_client.pdb
+C:\Users\р\Desktop\Проекты\Проекты\WCF\w_client\w_client\bin\Debug\w_client.exe.config
+C:\Users\р\Desktop\Проекты\Проекты\WCF\w_client\w_client\obj\Debug\w_client.exe
+C:\Users\р\Desktop\Проекты\Проекты\WCF\w_client\w_client\obj\Debug\w_client.pdb
+C:\Users\р\Desktop\Проекты\Проекты\WCF\w_client\w_client\bin\Debug\w_client.exe
+C:\Users\р\Desktop\Проекты\Проекты\WCF\w_client\w_client\bin\Debug\w_client.pdb
+C:\Users\р\Desktop\Проекты\Проекты\WCF\w_client\w_client\bin\Debug\libchange.dll
+C:\Users\р\Desktop\Проекты\Проекты\WCF\w_client\w_client\bin\Debug\libchange.pdb
+C:\Users\р\Desktop\Проекты\Проекты\WCF\w_client\w_client\obj\Debug\w_client.csprojResolveAssemblyReference.cache
+C:\Users\р\Desktop\Проекты\Проекты\WCF\w_client\w_client\obj\Debug\w_client.Form2.resources
+C:\Users\р\Desktop\Проекты\Проекты\WCF\w_client\w_client\obj\Debug\w_client.Form3.resources
+C:\Users\р\Desktop\Проекты\Проекты\WCF\w_client\w_client\obj\Debug\w_client.Form4.resources
+C:\Users\р\Desktop\Проекты\Проекты\WCF\w_client\w_client\obj\Debug\w_client.Form5.resources
+C:\Users\р\Desktop\Проекты\Проекты\WCF\w_client\w_client\obj\Debug\w_client.person.resources
+C:\Users\р\Desktop\Проекты\Проекты\WCF\w_client\w_client\obj\Debug\w_client.Properties.Resources.resources
+C:\Users\р\Desktop\Проекты\Проекты\WCF\w_client\w_client\obj\Debug\w_client.csproj.GenerateResource.Cache
+C:\Users\р\Desktop\Проекты\Проекты\Управление привилегиями\w_client\w_client\bin\Debug\w_client.exe.config
+C:\Users\р\Desktop\Проекты\Проекты\Управление привилегиями\w_client\w_client\obj\Debug\w_client.exe
+C:\Users\р\Desktop\Проекты\Проекты\Управление привилегиями\w_client\w_client\obj\Debug\w_client.pdb

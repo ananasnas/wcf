@@ -1,0 +1,16 @@
+C:\Users\р\Documents\Visual Studio 2013\Projects\1\w_server\w_server\bin\Debug\w_server.exe.config
+C:\Users\р\Documents\Visual Studio 2013\Projects\1\w_server\w_server\bin\Debug\w_server.exe
+C:\Users\р\Documents\Visual Studio 2013\Projects\1\w_server\w_server\bin\Debug\w_server.pdb
+C:\Users\р\Documents\Visual Studio 2013\Projects\1\w_server\w_server\bin\Debug\WcfService_.pdb
+C:\Users\р\Documents\Visual Studio 2013\Projects\1\w_server\w_server\obj\Debug\w_server.csprojResolveAssemblyReference.cache
+C:\Users\р\Documents\Visual Studio 2013\Projects\1\w_server\w_server\obj\Debug\w_server.exe
+C:\Users\р\Documents\Visual Studio 2013\Projects\1\w_server\w_server\obj\Debug\w_server.pdb
+C:\Users\р\Documents\Visual Studio 2013\Projects\1\w_server\w_server\bin\Debug\WcfService_.dll
+C:\Users\р\Desktop\Проекты\Проекты\WCF\w_server\w_server\bin\Debug\w_server.exe.config
+C:\Users\р\Desktop\Проекты\Проекты\WCF\w_server\w_server\obj\Debug\w_server.exe
+C:\Users\р\Desktop\Проекты\Проекты\WCF\w_server\w_server\obj\Debug\w_server.pdb
+C:\Users\р\Desktop\Проекты\Проекты\WCF\w_server\w_server\bin\Debug\w_server.exe
+C:\Users\р\Desktop\Проекты\Проекты\WCF\w_server\w_server\bin\Debug\w_server.pdb
+C:\Users\р\Desktop\Проекты\Проекты\WCF\w_server\w_server\bin\Debug\WcfService_.dll
+C:\Users\р\Desktop\Проекты\Проекты\WCF\w_server\w_server\bin\Debug\WcfService_.pdb
+C:\Users\р\Desktop\Проекты\Проекты\WCF\w_server\w_server\obj\Debug\w_server.csprojResolveAssemblyReference.cache

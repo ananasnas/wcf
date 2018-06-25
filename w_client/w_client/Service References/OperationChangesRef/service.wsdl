@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="OperationChanges" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import namespace="http://tempuri.org/" />
+      <xsd:import namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import namespace="http://schemas.datacontract.org/2004/07/WcfService_" />
+      <xsd:import namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IOperationChanges_add_priv_InputMessage">
+    <wsdl:part name="parameters" element="tns:add_priv" />
+  </wsdl:message>
+  <wsdl:message name="IOperationChanges_add_priv_OutputMessage">
+    <wsdl:part name="parameters" element="tns:add_privResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOperationChanges_GetList_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetList" />
+  </wsdl:message>
+  <wsdl:message name="IOperationChanges_GetList_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetListResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOperationChanges_add_group_InputMessage">
+    <wsdl:part name="parameters" element="tns:add_group" />
+  </wsdl:message>
+  <wsdl:message name="IOperationChanges_add_group_OutputMessage">
+    <wsdl:part name="parameters" element="tns:add_groupResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOperationChanges_add_pers_InputMessage">
+    <wsdl:part name="parameters" element="tns:add_pers" />
+  </wsdl:message>
+  <wsdl:message name="IOperationChanges_add_pers_OutputMessage">
+    <wsdl:part name="parameters" element="tns:add_persResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOperationChanges_update_pers_InputMessage">
+    <wsdl:part name="parameters" element="tns:update_pers" />
+  </wsdl:message>
+  <wsdl:message name="IOperationChanges_update_pers_OutputMessage">
+    <wsdl:part name="parameters" element="tns:update_persResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOperationChanges_update_groups_InputMessage">
+    <wsdl:part name="parameters" element="tns:update_groups" />
+  </wsdl:message>
+  <wsdl:message name="IOperationChanges_update_groups_OutputMessage">
+    <wsdl:part name="parameters" element="tns:update_groupsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOperationChanges_update_per_priv_InputMessage">
+    <wsdl:part name="parameters" element="tns:update_per_priv" />
+  </wsdl:message>
+  <wsdl:message name="IOperationChanges_update_per_priv_OutputMessage">
+    <wsdl:part name="parameters" element="tns:update_per_privResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IOperationChanges">
+    <wsdl:operation name="add_priv">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOperationChanges/add_priv" message="tns:IOperationChanges_add_priv_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOperationChanges/add_privResponse" message="tns:IOperationChanges_add_priv_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetList">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOperationChanges/GetList" message="tns:IOperationChanges_GetList_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOperationChanges/GetListResponse" message="tns:IOperationChanges_GetList_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="add_group">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOperationChanges/add_group" message="tns:IOperationChanges_add_group_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOperationChanges/add_groupResponse" message="tns:IOperationChanges_add_group_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="add_pers">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOperationChanges/add_pers" message="tns:IOperationChanges_add_pers_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOperationChanges/add_persResponse" message="tns:IOperationChanges_add_pers_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="update_pers">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOperationChanges/update_pers" message="tns:IOperationChanges_update_pers_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOperationChanges/update_persResponse" message="tns:IOperationChanges_update_pers_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="update_groups">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOperationChanges/update_groups" message="tns:IOperationChanges_update_groups_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOperationChanges/update_groupsResponse" message="tns:IOperationChanges_update_groups_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="update_per_priv">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOperationChanges/update_per_priv" message="tns:IOperationChanges_update_per_priv_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOperationChanges/update_per_privResponse" message="tns:IOperationChanges_update_per_priv_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IOperationChanges" type="tns:IOperationChanges">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="add_priv">
+      <soap:operation soapAction="http://tempuri.org/IOperationChanges/add_priv" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetList">
+      <soap:operation soapAction="http://tempuri.org/IOperationChanges/GetList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="add_group">
+      <soap:operation soapAction="http://tempuri.org/IOperationChanges/add_group" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="add_pers">
+      <soap:operation soapAction="http://tempuri.org/IOperationChanges/add_pers" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="update_pers">
+      <soap:operation soapAction="http://tempuri.org/IOperationChanges/update_pers" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="update_groups">
+      <soap:operation soapAction="http://tempuri.org/IOperationChanges/update_groups" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="update_per_priv">
+      <soap:operation soapAction="http://tempuri.org/IOperationChanges/update_per_priv" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="OperationChanges">
+    <wsdl:port name="BasicHttpBinding_IOperationChanges" binding="tns:BasicHttpBinding_IOperationChanges">
+      <soap:address location="http://localhost:8733/Design_Time_Addresses/WcfService_/Service1/" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

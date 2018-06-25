@@ -1,0 +1,14 @@
+c:\users\р\documents\visual studio 2013\Projects\WcfService_\WcfService_\bin\Debug\WcfService_.dll.config
+c:\users\р\documents\visual studio 2013\Projects\WcfService_\WcfService_\bin\Debug\WcfService_.dll
+c:\users\р\documents\visual studio 2013\Projects\WcfService_\WcfService_\bin\Debug\WcfService_.pdb
+c:\users\р\documents\visual studio 2013\Projects\WcfService_\WcfService_\obj\Debug\WcfService_.csprojResolveAssemblyReference.cache
+c:\users\р\documents\visual studio 2013\Projects\WcfService_\WcfService_\obj\Debug\WcfService_.dll
+c:\users\р\documents\visual studio 2013\Projects\WcfService_\WcfService_\obj\Debug\WcfService_.pdb
+C:\Users\р\Documents\Visual Studio 2013\Projects\1\WcfService_\WcfService_\bin\Debug\WcfService_.dll.config
+C:\Users\р\Documents\Visual Studio 2013\Projects\1\WcfService_\WcfService_\bin\Debug\WcfService_.dll
+C:\Users\р\Documents\Visual Studio 2013\Projects\1\WcfService_\WcfService_\bin\Debug\WcfService_.pdb
+C:\Users\р\Documents\Visual Studio 2013\Projects\1\WcfService_\WcfService_\bin\Debug\libchange.dll
+C:\Users\р\Documents\Visual Studio 2013\Projects\1\WcfService_\WcfService_\bin\Debug\libchange.pdb
+C:\Users\р\Documents\Visual Studio 2013\Projects\1\WcfService_\WcfService_\obj\Debug\WcfService_.dll
+C:\Users\р\Documents\Visual Studio 2013\Projects\1\WcfService_\WcfService_\obj\Debug\WcfService_.pdb
+C:\Users\р\Documents\Visual Studio 2013\Projects\1\WcfService_\WcfService_\obj\Debug\WcfService_.csprojResolveAssemblyReference.cache

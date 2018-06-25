@@ -1,0 +1,10 @@
+c:\users\р\documents\visual studio 2013\Projects\libchange\libchange\bin\Debug\libchange.dll
+c:\users\р\documents\visual studio 2013\Projects\libchange\libchange\bin\Debug\libchange.pdb
+c:\users\р\documents\visual studio 2013\Projects\libchange\libchange\obj\Debug\libchange.csprojResolveAssemblyReference.cache
+c:\users\р\documents\visual studio 2013\Projects\libchange\libchange\obj\Debug\libchange.dll
+c:\users\р\documents\visual studio 2013\Projects\libchange\libchange\obj\Debug\libchange.pdb
+C:\Users\р\Documents\Visual Studio 2013\Projects\1\libchange\libchange\bin\Debug\libchange.dll
+C:\Users\р\Documents\Visual Studio 2013\Projects\1\libchange\libchange\bin\Debug\libchange.pdb
+C:\Users\р\Documents\Visual Studio 2013\Projects\1\libchange\libchange\obj\Debug\libchange.csprojResolveAssemblyReference.cache
+C:\Users\р\Documents\Visual Studio 2013\Projects\1\libchange\libchange\obj\Debug\libchange.dll
+C:\Users\р\Documents\Visual Studio 2013\Projects\1\libchange\libchange\obj\Debug\libchange.pdb

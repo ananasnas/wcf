@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/WcfService_" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/WcfService_" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="changes">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ID_group" type="xs:int" />
+      <xs:element minOccurs="0" name="ID_person" type="xs:int" />
+      <xs:element minOccurs="0" name="IDs_privch" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="IDs_privgr" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="middle_name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="name_group" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="name_priv" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="surname" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="changes" nillable="true" type="tns:changes" />
+  <xs:complexType name="Group_">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ID_group" type="xs:int" />
+      <xs:element minOccurs="0" name="name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="tableName" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Group_" nillable="true" type="tns:Group_" />
+  <xs:complexType name="Privilege">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ID_privilege" type="xs:int" />
+      <xs:element minOccurs="0" name="name_func" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="tableName" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Privilege" nillable="true" type="tns:Privilege" />
+  <xs:complexType name="Group_Privileges">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Groups_ID_group" type="xs:int" />
+      <xs:element minOccurs="0" name="Privileges_ID_privilege" type="xs:int" />
+      <xs:element minOccurs="0" name="tableName" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Group_Privileges" nillable="true" type="tns:Group_Privileges" />
+  <xs:complexType name="Persons_Privileges">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Persons_ID_person" type="xs:int" />
+      <xs:element minOccurs="0" name="Privileges_ID_privilege" type="xs:int" />
+      <xs:element minOccurs="0" name="tableName" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Persons_Privileges" nillable="true" type="tns:Persons_Privileges" />
+  <xs:complexType name="Person">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Groups_ID_Group" type="xs:int" />
+      <xs:element minOccurs="0" name="ID_person" type="xs:int" />
+      <xs:element minOccurs="0" name="WasDel" type="xs:int" />
+      <xs:element minOccurs="0" name="middle_name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="surname" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="tableName" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Person" nillable="true" type="tns:Person" />
+</xs:schema>
